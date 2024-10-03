@@ -1,3 +1,4 @@
+<html>
 <head>
 <meta charset="utf-8">
 <title>My First Web Page</title>
@@ -8,6 +9,7 @@
 	margin: 0px;
     background-color:lemonchiffon
 }
+
 nav {
   height: 50px;
   background-color: darkgoldenrod;
@@ -16,7 +18,6 @@ nav {
   color:aliceblue
   text-align: center;
   width: 350px;
-  float:right;
 }
 .inline-block-1 {
     padding: 15px;
@@ -26,26 +27,66 @@ nav {
     text-align: center;
 }
 .logo {
-  color: aliceblue;
+  color: antiquewhite;
   font-size: 40px;
   text-align:center;
   width: 100px;
   height: 10px;
   padding: 15px;
+  margin-top: 0px;
 }
-.logotext { 
 
-} 
+.header {
+  background-color: darkolivegreen;
+  height: 70px ;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
 
+.aboutmecontainer {
+  display:grid;
+  grid-template-columns: 1fr 800px 3fr;
+  grid-template-rows: 25% 200px 25%;
+}
+
+.aboutmetext {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.header1 {
+  font-size: 60px;
+}
+.subtitle1 {
+  font-size: 30px;
+}
+
+.projectcontainer {
+  display: grid;
+  grid-template-columns: 1fr 200px 100px 200px 1fr;
+  grid-template-rows: 15% 200px 15% 200px 15% 200px 15%;
+}
+
+.projectphotos {
+  width: 300px;
+  height: 200px;
+  outline: thick solid darkolivegreen;
+  
+}
+.projectdescription {
+  width: 200px;
+  height: 200px;
+  outline: thick solid darkolivegreen;
+}
 
 </style>
-</head>
-<header>
-<section style="background-color: darkolivegreen; height: 70px ;width: 100%;">
-  <div class="logo" style="float:left">
-    <h1 class="logotext">JKC</h1>
-  </div>
-  <nav>
+
+<section class="header">
+    <p class="logo">JKC</p>
+<nav>
     <div>
     <div class="inline-block-1">Home</div>
     <div class="inline-block-1">About</div>
@@ -53,12 +94,9 @@ nav {
     </div>
   </nav>
 </section>
-</header>
+</head>
 
 <body>
-  <section>
-
-  </section>
 <!--<section style="width: 100%;">
   <div style="width: 300px; float:left; padding: 10p; margin: 20px">
     <div style="background-color:indianred; text-align:center;">
@@ -72,19 +110,22 @@ nav {
   </div>
   
 </section>-->
-<section>
-<div>
-  <div>
-    <p>A heading for this section</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<section class="aboutmecontainer">
+  <div class="aboutmetext">
+    <h1 class="header1">Hi! My name is Jasleen Kaur!</h1>
+    <p class="subtitle1">I'm a UI/UX researcher and designer focused on creating a smooth, intuitive user experience. </p>
   </div>
-  <div>
-    <div>A headline introducing the pictures of your pet below</div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div></section>
+</section>
+
+<section class="projectcontainer">
+  <div class="projectphotos" style="grid-column-start: 2; grid-column-end: 4;grid-row-start: 2; grid-row-end: 3;"></div>
+  <p class="projectdescription" style="grid-column-start: 4; grid-column-end: 5;grid-row-start: 2; grid-row-end: 3;"></p>
+  <div class="projectphotos" style="grid-column-start: 3; grid-column-end: 5;grid-row-start: 4; grid-row-end: 5;"></div>
+  <p class="projectdescription" style="grid-column-start: 2; grid-column-end: 3;grid-row-start: 4; grid-row-end: 5;"></p>
+  <div class="projectphotos" style="grid-column-start: 2; grid-column-end: 4;grid-row-start: 6; grid-row-end: 7;"></div>
+  <p class="projectdescription" style="grid-column-start: 4; grid-column-end: 5;grid-row-start: 6; grid-row-end: 7;"></p>
+</section>
+
 </body>
 </html>
