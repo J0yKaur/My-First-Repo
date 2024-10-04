@@ -47,7 +47,7 @@ nav {
 .aboutmecontainer {
   display:grid;
   grid-template-columns: 1fr 800px 3fr;
-  grid-template-rows: 25% 200px 25%;
+  grid-template-rows: 20% 200px 25%;
 }
 
 .aboutmetext {
@@ -66,20 +66,23 @@ nav {
 
 .projectcontainer {
   display: grid;
-  grid-template-columns: 1fr 200px 100px 200px 1fr;
-  grid-template-rows: 15% 200px 15% 200px 15% 200px 15%;
+  grid-template-columns: 20% 300px 15px 200px 15px 300px 20%;
+  grid-template-rows: 160px 400px 5% 400px 5% 400px 10%;
 }
 
 .projectphotos {
-  width: 300px;
-  height: 200px;
+  width: auto;
+  height: 300px;
   outline: thick solid darkolivegreen;
-  
+
 }
 .projectdescription {
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 300px;
   outline: thick solid darkolivegreen;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px
 }
 
 </style>
@@ -119,12 +122,12 @@ nav {
 </section>
 
 <section class="projectcontainer">
-  <div class="projectphotos" style="grid-column-start: 2; grid-column-end: 4;grid-row-start: 2; grid-row-end: 3;"></div>
-  <p class="projectdescription" style="grid-column-start: 4; grid-column-end: 5;grid-row-start: 2; grid-row-end: 3;"></p>
-  <div class="projectphotos" style="grid-column-start: 3; grid-column-end: 5;grid-row-start: 4; grid-row-end: 5;"></div>
+  <div class="projectphotos" style="grid-column-start: 2; grid-column-end: 5;grid-row-start: 2; grid-row-end: 3;"></div>
+  <p class="projectdescription" style="grid-column-start: 6; grid-column-end: 7;grid-row-start: 2; grid-row-end: 3;"></p>
+  <div class="projectphotos" style="grid-column-start: 4; grid-column-end: 7;grid-row-start: 4; grid-row-end: 5;"></div>
   <p class="projectdescription" style="grid-column-start: 2; grid-column-end: 3;grid-row-start: 4; grid-row-end: 5;"></p>
-  <div class="projectphotos" style="grid-column-start: 2; grid-column-end: 4;grid-row-start: 6; grid-row-end: 7;"></div>
-  <p class="projectdescription" style="grid-column-start: 4; grid-column-end: 5;grid-row-start: 6; grid-row-end: 7;"></p>
+  <div class="projectphotos" style="grid-column-start: 2; grid-column-end: 5;grid-row-start: 6; grid-row-end: 7;"></div>
+  <p class="projectdescription" style="grid-column-start: 6; grid-column-end: 7;grid-row-start: 6; grid-row-end: 7;"></p>
 </section>
 
 </body>
