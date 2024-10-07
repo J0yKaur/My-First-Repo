@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+margin: 0px;
+background-color:lemonchiffon
+}
+
+nav {
+height: 50px;
+background-color: darkgoldenrod;
+margin-left: auto;
+margin: 10px;
+color:aliceblue
+text-align: center;
+width: 350px;
+}
+
+.inline-block-1 {
+padding: 15px;
+display: inline-block;
+color: antiquewhite;
+width: 75px;
+text-align: center;
+}
+
+.logo {
+color: antiquewhite;
+font-size: 40px;
+text-align:center;
+width: 100px;
+height: 10px;
+padding: 15px;
+margin-top: 0px;
+}
+
+.header {
+background-color: darkolivegreen;
+height: 70px ;
+width: 100%;
+display:flex;
+justify-content: space-between;
+}
+
+.footer {
+background-color: darkolivegreen;
+height: 70px ;
+width: 100%;
+display:flex;
+justify-content: center;
+}
+
+.aboutmecontainer {
+display:grid;
+grid-template-columns: 1fr 800px 3fr;
+grid-template-rows: 20% 200px 25%;
+}
+
+.aboutmetext {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 4;
+}
+
+.header1 {
+font-size: 60px;
+}
+
+.subtitle1 {
+font-size: 30px;
+}
+
+.projectcontainer {
+display: grid;
+grid-template-columns: 20% 300px 15px 200px 15px 300px 20%;
+grid-template-rows: 160px 400px 5% 400px 5% 400px 10%;
+margin-bottom: 300px;
+}
+
+.projectphotos {
+width: auto;
+height: 300px;
+outline: thick solid darkolivegreen;
+}
+
+.projectdescription {
+width: auto;
+height: 250px;
+outline: thick solid darkolivegreen;
+margin-top: 0px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: left;
+padding: 25px;
+}
+.footertext{
+color: antiquewhite;
+}
