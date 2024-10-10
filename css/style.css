@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-family:"Open Sans", sans-serif;
 margin: 0px;
 background-color:lemonchiffon
 }
@@ -12,6 +12,15 @@ margin: 10px;
 color:aliceblue
 text-align: center;
 width: 350px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Playfair Display';
+}
+
+h3 {
+    font-family: 'Playfair Display';
 }
 /* home page things */ 
 
@@ -111,8 +120,8 @@ padding: 25px;
 
 .myprojectscontainer {
     display: grid;
-    grid-template-columns: 1fr 500px 15px 500px 1fr;
-    grid-template-rows: 10px 400px 5% 400px 10%;
+    grid-template-columns: 1fr 500px 30px 500px 1fr;
+    grid-template-rows: 10px 400px 15% 400px 10%;
     margin-bottom: 200px;
 }
 
@@ -124,15 +133,17 @@ padding: 25px;
 
 .myprojectscontainertext {
     outline: solid darkolivegreen 3px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 15px; 
 }
 
 .myprojectscontainerimage {
     width: 500px; 
-    height: 300px; 
-    outline: solid darkolivegreen 2px;
+    height: 300px;
+    border-radius: 15px; 
+    outline: solid darkolivegreen 2px ;
 }
 
 
