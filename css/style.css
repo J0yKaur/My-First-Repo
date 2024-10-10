@@ -100,13 +100,40 @@ padding: 25px;
 }
 
 .skillstext {
-    
+    width: 500px;
+}
+
+.skillslist {
+    margin: 30px;
 }
 
 /* projects page */
 
+.myprojectscontainer {
+    display: grid;
+    grid-template-columns: 1fr 500px 15px 500px 1fr;
+    grid-template-rows: 10px 400px 5% 400px 10%;
+    margin-bottom: 200px;
+}
 
+.myprojectscontainergrid {
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+}
 
+.myprojectscontainertext {
+    outline: solid darkolivegreen 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.myprojectscontainerimage {
+    width: 500px; 
+    height: 300px; 
+    outline: solid darkolivegreen 2px;
+}
 
 
 /* Footer things */
