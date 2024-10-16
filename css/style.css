@@ -1,15 +1,14 @@
 body {
     font-family:"Open Sans", sans-serif;
 margin: 0px;
-background-color:lemonchiffon
+background-color:#FEFAF1;
 }
 
 nav {
 height: 50px;
-background-color: darkgoldenrod;
 margin-left: auto;
 margin: 10px;
-color:aliceblue
+color:aliceblue;
 text-align: center;
 width: 350px;
 }
@@ -17,9 +16,14 @@ width: 350px;
 h1 {
     font-size: 45px;
     font-family: 'Playfair Display';
+    color: #46726F;
 }
 
 h3 {
+    font-family: 'Playfair Display';
+}
+
+h2 {
     font-family: 'Playfair Display';
 }
 /* home page things */ 
@@ -27,13 +31,15 @@ h3 {
 .inline-block-1 {
 padding: 15px;
 display: inline-block;
-color: antiquewhite;
 width: 75px;
 text-align: center;
+font-family: 'Playfair Display';
+font-size: 20px;
 }
 
 .logo {
-color: antiquewhite;
+font-family: 'Playfair Display';
+color: #46726F;
 font-size: 40px;
 text-align:center;
 width: 100px;
@@ -43,7 +49,7 @@ margin-top: 0px;
 }
 
 .header {
-background-color: darkolivegreen;
+background-color:#FEFAF1;
 height: 70px ;
 width: 100%;
 display:flex;
@@ -69,6 +75,7 @@ font-size: 60px;
 
 .subtitle1 {
 font-size: 30px;
+color:#46726F;
 }
 
 .projectcontainer {
@@ -81,18 +88,19 @@ margin-bottom: 300px;
 .projectphotos {
 width: auto;
 height: 300px;
-outline: thick solid darkolivegreen;
+/* outline: thick solid darkolivegreen; */
 }
 
 .projectdescription {
 width: auto;
 height: 250px;
-outline: thick solid darkolivegreen;
-margin-top: 0px;
+outline: thick solid #fccfe1;
+border-radius: 15px;
 margin-left: 20px;
 margin-right: 20px;
 text-align: left;
 padding: 25px;
+background-color: white;
 }
 
 /* skills */
@@ -143,7 +151,7 @@ padding: 25px;
     width: 500px; 
     height: 300px;
     border-radius: 15px; 
-    outline: solid darkolivegreen 2px ;
+    /* outline: solid darkolivegreen 2px ; */
 }
 
 
