@@ -58,7 +58,7 @@ justify-content: space-between;
 
 .aboutmecontainer {
 display:grid;
-grid-template-columns: 1fr 800px 3fr;
+grid-template-columns: 1fr 4fr 1fr;
 grid-template-rows: 20% 200px 25%;
 }
 
@@ -70,24 +70,26 @@ grid-row-end: 4;
 }
 
 .header1 {
-font-size: 60px;
+font-size: 50px;
 }
 
 .subtitle1 {
-font-size: 30px;
+font-size: 25px;
 color:#46726F;
 }
 
 .projectcontainer {
-display: grid;
-grid-template-columns: 20% 300px 15px 200px 15px 300px 20%;
-grid-template-rows: 160px 400px 5% 400px 5% 400px 10%;
-margin-bottom: 300px;
+display: flex;
+flex-direction: column;
+margin-top: 150px;
+margin-bottom: 50px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .projectphotos {
 width: auto;
-height: 300px;
+height: auto;
 /* outline: thick solid darkolivegreen; */
 }
 
@@ -114,10 +116,13 @@ background-color: white;
 .skillscontainer {
    display: flex;
    justify-content: center;
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 .skillstext {
-    width: 500px;
+    width: auto;
+
 }
 
 .skillslist {
@@ -127,10 +132,9 @@ background-color: white;
 /* projects page */
 
 .myprojectscontainer {
-    display: grid;
-    grid-template-columns: 1fr 500px 30px 500px 1fr;
-    grid-template-rows: 10px 400px 15% 400px 10%;
-    margin-bottom: 200px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
 .myprojectscontainergrid {
@@ -182,5 +186,3 @@ background-color: white;
 color: antiquewhite;
 }
 
-
-/* */
