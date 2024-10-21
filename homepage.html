@@ -1,18 +1,25 @@
 <html>
 <head>
 <meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
 <link href="css/style.css" rel="stylesheet" media="screen and (min-width:601px)" type="text/css">
 <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/smallscreen.css">
-<title>My First Web Page</title>
+<title>Homepage</title>
 <!-- Below is your inline CSS. Start filling them up with the provided lines-->
 
 <section class="header">
     <h3 class="logo">JKC</h3>
     <nav>
       <div>
-      <a href="homepage.html" class="inline-block-1" style="color:#46726F">Home </a>
-      <a href="uiuxskills.html" class="inline-block-1" style="color:#46726F">About</a>
-      <a href="myprojects.html" class="inline-block-1" style="color:#46726F">Projects</a>
+      <a href="homepage.html" class="inline-block-1 " style="color:#46726F">Home </a>
+      <a href="uiuxskills.html" class="inline-block-1 " style="color:#46726F">About</a>
+      <a class="inline-block-1 toggle" style="color:#46726F">Projects</a>
+      <div class="toggleContainer">
+        <p class="dropdownitem">Study App</p>
+        <p class="dropdownitem">DOE Design</p>
+        <p class="dropdownitem">Non-profit Redesign</p>
+      </div>
       </div>
     </nav>
 </section>
@@ -67,6 +74,7 @@
 <footer class="footer" >
   <p class="footertext">Jasleen Kaur © 2024</p>
 </footer>
+
 </html>
 
 

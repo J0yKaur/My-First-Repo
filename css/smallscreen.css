@@ -35,8 +35,32 @@ width: 75px;
 text-align: center;
 font-family: 'Playfair Display';
 font-size: 20px;
+text-decoration:none;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.toggleContainer {
+    padding: 15px;
+    display: none;
+    transition: all;
+  }
+
+  .active {
+    display: block;
+  }
+/* .inline-block-1:hover {
+    padding: 15px;
+display: inline-block;
+width: 75px;
+text-align: center;
+font-family: 'Playfair Display';
+font-size: 20px;
+text-decoration:none;
+    font-weight: bold;
+} */
 .logo {
 font-family: 'Playfair Display';
 color: #46726F;

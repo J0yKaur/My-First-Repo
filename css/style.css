@@ -35,8 +35,36 @@ width: 75px;
 text-align: center;
 font-family: 'Playfair Display';
 font-size: 20px;
+text-decoration:none;
 }
+/*.inline-block-1:hover {
+    padding: 15px;
+display: inline-block;
+width: 75px;
+text-align: center;
+font-family: 'Playfair Display';
+font-size: 20px;
+text-decoration:none;
+    font-weight: bold;
+}*/
 
+.bold {
+    font-weight: bold;
+}
+.toggleContainer {
+    padding: 15px;
+    display: none;
+    opacity: 0;
+    transition:  opacity 0.3s ease, max-height 0.3s ease;
+  }
+
+  .active {
+    display: block;
+    color: #46726F;
+  }
+.dropdownitem {
+    outline: solid 2px;
+}
 .logo {
 font-family: 'Playfair Display';
 color: #46726F;
@@ -124,6 +152,10 @@ background-color: white;
     margin: 30px;
 }
 
+.skillsphoto {
+    width: 330px; height: 500px;
+}
+
 /* projects page */
 
 .myprojectscontainer {
@@ -169,6 +201,8 @@ background-color: white;
 .myprojects4 {
     grid-column-start: 4; grid-column-end: 5; grid-row-start: 4; grid-row-end: 5;
 }
+
+
 /* Footer things */
 .footer {
     background-color: darkolivegreen;
